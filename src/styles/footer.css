@@ -1,0 +1,27 @@
+.footer{
+    background-color: black;
+    height: 40vh;
+    box-sizing: border-box;
+    padding-top: 40px;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.two{
+    padding-top: 20px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

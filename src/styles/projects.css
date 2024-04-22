@@ -1,0 +1,40 @@
+*{
+    /* background-color: black; */
+}
+
+.sect{
+    height: 190vh;
+    background-color: black;
+    margin-top: -45px;
+    color: white;
+}
+
+.car{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    margin-top: 100px;
+}
+
+
+img{
+    width: 340px;
+    height: 200px;
+    background-color: black;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.content > h4{
+    color: yellow;
+}

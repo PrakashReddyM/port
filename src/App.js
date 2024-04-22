@@ -1,21 +1,20 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Title from './components/Title';
-import About from './components/About';
-import Footer from './components/Footer';
-import ProjectSection from './components/ProjectSection';
-import SkillSection from './components/SkillSection';
-import Contact from './components/Contact';
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Title from "./components/Title";
+import SkillSection from "./components/SkillSection";
+import ProjectSection from "./components/ProjectSection";
+import Contact from "./components/Contact";
 
 function App() {
   return (
+    
     <div>
       <Navbar />
       <Title />
-      <About />
-      <SkillSection /> 
+      <SkillSection />
       <ProjectSection />
+      <Contact />
       <Footer />
     </div>
   );
